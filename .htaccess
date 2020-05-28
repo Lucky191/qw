@@ -1,0 +1,4 @@
+AddDefaultCharset utf-8
+RemoveHandler .html .htm   
+AddType application/x-httpd-php .php .htm .html .phtml
+AddHandler application/x-httpd-php .php .html .shtml .htm

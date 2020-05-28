@@ -1,0 +1,105 @@
+
+.glyphicon {
+	position: relative;
+	top: 1px;
+	display: inline-block;
+	font-family: "Glyphicons Halflings";
+	font-style: normal;
+	font-weight: bold;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.cart-item__btn-inc-count {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.table {
+    border-collapse: collapse;
+}
+
+.table {
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+.glyphicon-plus:before {
+    content: "\2b";
+}
+.glyphicon-minus:before {
+    content: "\2212";
+	font-weight:bold;
+}
+.glyphicon-remove:before {
+	content: "\2718";
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.cart-item__btn-dec-count {
+    margin-right: 10px;
+    cursor: pointer;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+	
+}
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+.table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.table {
+    border-collapse: collapse;
+}
+
+.table {
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+

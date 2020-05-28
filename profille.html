@@ -1,0 +1,19 @@
+<?php 
+session_start();
+include_once("db.html");
+?>
+<!DOCTYPE HTML PUBLIC >
+<html>
+<head>
+<title> <?php echo $login; ?></title>
+</head>
+<body>
+<?php
+if(isset($login) AND isset($password)){
+	$result = mysql_query("SELECT * FROM users  WHERE id='$id_user' ");
+$array = mysql_fetch_array($result);
+}
+echo "<meta http-equiv='Refresh' content='0; URL=profile.html?id=".$id_user."'>";
+?>
+	</body>
+	</html>
